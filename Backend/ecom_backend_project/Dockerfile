@@ -1,5 +1,5 @@
 # Stage 1: Build the Spring Boot application
-FROM eclipse-temurin:17-jdk AS builder
+FROM eclipse-temurin:21-jdk AS builder
 
 WORKDIR /app
 
