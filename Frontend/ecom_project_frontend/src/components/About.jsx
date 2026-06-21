@@ -39,20 +39,15 @@ const About = () => {
         </div>
       </div>
 
-      <div className="about-right">
-        <div className="circle">
-         <div className="profile-card">
-<img
-  src={profileImg}
-  alt="Pushpendra Patidar"
-  className="profile-img"
-/>
-           
-  <h2>Pushpendra Patidar</h2>
-  <p>Developer</p>
+<div className="about-right">
+  <div className="circle">
+    <img
+      src={profileImg}
+      alt="Pushpendra Patidar"
+      className="profile-img"
+    />
+  </div>
 </div>
-        </div>
-      </div>
     </section>
   );
 };
