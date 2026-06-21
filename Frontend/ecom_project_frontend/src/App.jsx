@@ -54,6 +54,7 @@ function App() {
           <Route path="product/:id" element={<Product  />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/product/update/:id" element={<UpdateProduct />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </BrowserRouter>
     </AppProvider>
