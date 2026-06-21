@@ -40,10 +40,15 @@ const About = () => {
 
       <div className="about-right">
         <div className="circle">
-          <div className="name-card">
-            <h2>Pushpendra</h2>
-            <p>Full Stack Developer</p>
-          </div>
+         <div className="profile-card">
+  <img
+    src={require("../assets/profile.jpg")}
+    alt="Pushpendra Patidar"
+    className="profile-img"
+  />
+  <h2>Pushpendra Patidar</h2>
+  <p>Full Stack Developer</p>
+</div>
         </div>
       </div>
     </section>
