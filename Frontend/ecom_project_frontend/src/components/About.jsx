@@ -6,11 +6,11 @@ const About = () => {
       <p>
         Instagram:
         <a
-          href="https://instagram.com/your_instagram_username"
+          href="https://www.instagram.com/pushpendra_patidar16/"
           target="_blank"
           rel="noreferrer"
         >
-          {" "}@your_instagram_username
+          {" "}@Pushpendra_Patidar16
         </a>
       </p>
     </div>
