@@ -1,4 +1,3 @@
-
 const About = () => {
   return (
     <div
@@ -37,7 +36,5 @@ const About = () => {
     </div>
   );
 };
-
-export default About;
 
 export default About;
