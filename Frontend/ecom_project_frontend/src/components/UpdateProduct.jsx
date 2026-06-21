@@ -22,13 +22,13 @@ const UpdateProduct = () => {
     const fetchProduct = async () => {
       try {
         const response = await axios.get(
-          `https://localhost:8080/api/product/${id}`
+          `https://ecommerce-springboot-project-11.onrender.com/api/product/${id}`
         );
 
         setProduct(response.data);
       
         const responseImage = await axios.get(
-          `https://localhost:8080/api/product/${id}/image`,
+          `https://ecommerce-springboot-project-11.onrender.com/api/product/${id}/image`,
           { responseType: "blob" }
         );
        const imageFile = await converUrlToFile(responseImage.data,response.data.imageName)
@@ -67,7 +67,7 @@ const UpdateProduct = () => {
 
   console.log("formData : ", updatedProduct)
     axios
-      .put(`https://localhost:8080/api/product/${id}`, updatedProduct, {
+      .put(`https://ecommerce-springboot-project-11.onrender.com/api/product/${id}`, updatedProduct, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
