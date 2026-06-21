@@ -1,0 +1,103 @@
+.about-page {
+  min-height: 100vh;
+  background: #08111f;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 80px;
+}
+
+.about-left {
+  max-width: 500px;
+}
+
+.hello {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-left h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.about-left h2 span {
+  color: #ff6b57;
+}
+
+.about-left h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.desc {
+  color: #cfcfcf;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 14px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background: #ff6b57;
+  color: white;
+}
+
+.btn-secondary {
+  border: 2px solid #ff6b57;
+  color: white;
+}
+
+.about-right .circle {
+  width: 350px;
+  height: 350px;
+  border: 12px solid #ff6b57;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-card {
+  text-align: center;
+}
+
+.name-card h2 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.name-card p {
+  color: #bdbdbd;
+}
+
+@media (max-width: 900px) {
+  .about-page {
+    flex-direction: column;
+    text-align: center;
+    gap: 60px;
+    padding: 120px 30px 50px;
+  }
+
+  .about-left h1 {
+    font-size: 3rem;
+  }
+
+  .about-right .circle {
+    width: 250px;
+    height: 250px;
+  }
+}
