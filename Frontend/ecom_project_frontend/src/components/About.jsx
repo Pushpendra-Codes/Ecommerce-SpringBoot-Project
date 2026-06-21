@@ -1,4 +1,5 @@
 import "./About.css";
+import profileImg from "../assets/profile.jpg";
 
 const About = () => {
   return (
@@ -41,13 +42,14 @@ const About = () => {
       <div className="about-right">
         <div className="circle">
          <div className="profile-card">
-  <img
-    src={require("../assets/profile.jpg")}
-    alt="Pushpendra Patidar"
-    className="profile-img"
-  />
+<img
+  src={profileImg}
+  alt="Pushpendra Patidar"
+  className="profile-img"
+/>
+           
   <h2>Pushpendra Patidar</h2>
-  <p>Full Stack Developer</p>
+  <p>Developer</p>
 </div>
         </div>
       </div>
